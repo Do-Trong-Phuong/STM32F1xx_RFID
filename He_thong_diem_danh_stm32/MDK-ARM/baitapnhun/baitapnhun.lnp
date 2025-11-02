@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"baitapnhun\startup_stm32f103xb.o"
+"baitapnhun\i2c_lcd.o"
+"baitapnhun\stm32f1_rc522.o"
+"baitapnhun\main.o"
+"baitapnhun\stm32f1xx_it.o"
+"baitapnhun\stm32f1xx_hal_msp.o"
+"baitapnhun\stm32f1xx_hal_gpio_ex.o"
+"baitapnhun\stm32f1xx_hal_i2c.o"
+"baitapnhun\stm32f1xx_hal.o"
+"baitapnhun\stm32f1xx_hal_rcc.o"
+"baitapnhun\stm32f1xx_hal_rcc_ex.o"
+"baitapnhun\stm32f1xx_hal_gpio.o"
+"baitapnhun\stm32f1xx_hal_dma.o"
+"baitapnhun\stm32f1xx_hal_cortex.o"
+"baitapnhun\stm32f1xx_hal_pwr.o"
+"baitapnhun\stm32f1xx_hal_flash.o"
+"baitapnhun\stm32f1xx_hal_flash_ex.o"
+"baitapnhun\stm32f1xx_hal_exti.o"
+"baitapnhun\stm32f1xx_hal_spi.o"
+"baitapnhun\stm32f1xx_hal_uart.o"
+"baitapnhun\system_stm32f1xx.o"
+--strict --scatter "baitapnhun\baitapnhun.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "baitapnhun.map" -o baitapnhun\baitapnhun.axf
