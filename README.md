@@ -1,1 +1,1 @@
-# STM32F1xx_RFID
+# STM32F1xx_RFID đây là thư viện RC522 và LCD_I2C
